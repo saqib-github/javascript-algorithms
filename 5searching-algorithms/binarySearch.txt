@@ -1,0 +1,10 @@
+// Binary search algorithm
+* Binary search is a much faster form of search algorithm
+* Rather than eliminate one element at a time, 
+ you can eliminate half of the remaining elements at a time
+ * Binary search is only works on sorted arrays.
+
+ > Big O of binary search algorithm
+ best case: O(1)
+ worst and average case: O(log n);
+  

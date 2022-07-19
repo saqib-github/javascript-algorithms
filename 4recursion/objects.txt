@@ -1,0 +1,17 @@
+* define what recursion is and how it can be used
+* understand the two essential components of a recursion function.
+* visualize the call stack to better debug and understand recursive functions.
+* use helper method recursion and pure recursion to solve more difficuilt problems.
+
+what is recursion ? 
+a process(a function in our case) that calls itself.
+why do i need to know this ? 
+it's everywhere 
+> JSON.parse / JSON.stringyfy
+The call stack: It's a stack data structure. Any time a function is invoked it is
+placed (pushed) on the top of the call stack. when javascript sees the return keyword
+or when the function ends, the compiler will remove (pop).
+* You're used to function being pushed on the call stack and poped off when they are done. 
+* when we write recursive functions, we keep pushing new functions onto the call stack.
+> where things go wrong 
+~no base case, forgetting to return ot returning wrong, stackoverflow

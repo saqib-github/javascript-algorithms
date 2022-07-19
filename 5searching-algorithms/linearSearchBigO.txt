@@ -1,0 +1,3 @@
+best case: O(1) best when array have 1 value
+average case: O(n) if array have n values (not large)
+worst case: O(n) if array have n values (very large data set) 

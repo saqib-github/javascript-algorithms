@@ -1,0 +1,31 @@
+* what is sortings?
+>> Sorting is the process of rearranging the items in a collection (e.g. an array)
+>> so that the items are in some kind of order
+* Examples
+. Sorting numbers from smallest to largest
+. Sorting numbers alphabetically
+. Sorting movies based on the release year
+. sorting movies based on the revenue
+. sorting numbers/strigs based on the different conditions
+* Why do we need to learn this ?
+>> Sorting is an incredibly common task, so its good to know how it works.
+>> there are many different ways to sort things, and different techniques have
+their own advantages and disadvantages.
+// JavaScript has a sort method
+["steele", "colt", "datastructures", "algorithms"].sort()
+["algorithms", "colt", "datastruct", "steele"]
+[6,4,15,10].sort()
+[10, 15, 4,6]
+
+* tell javascript to how to sort things
+>> the built-in method accepts an optional computator function
+>> you can use this computator function to tell javascript how you want it to sort things
+>> the computator looks at pairs of elements (a and b),
+ > if it returns a negative number, a should come before b,
+ > if it returns a positive number, a should come after b,
+ > if it returns 0, a and b are the same as far as sort is concerned
+
+* Big O
+best case: O(n)
+worst case: O(n^2)
+average case: O(n^2)

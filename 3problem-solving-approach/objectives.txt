@@ -1,0 +1,25 @@
+* define what an algorithm is to be used.
+* devise a plan to solve algorithm.
+* compare and contrast problem solving patterns including frequency counters, two pointer problem 
+  and divide and conquer.
+
+Notes:
+  what is an algorithm ? 
+  ans: a process or set of steps to accomplish a certain task.
+  why you need to know this process ?
+  ans: almost everything that you do in programming involoves some kind of algorithms.
+  It's the foundation for being a successful problem solving and developer.
+  
+  Problem solving
+  > Understand the problem
+  > explore concrete examples
+  > break it down 
+  > solve/simplify the problem
+  > look back and refactor the problem
+  Understand the problem: 
+  1. can i restate the problem in my own words ?
+  2. what are the inputs that go into the problem ?
+  3. what are the outputs that should come from the solution to the problem?
+  4. can the outputs be determined from the inputs? in other words, do i have enough information to solve the problem?
+  5. how should i label the important pieces of data are a part of the problem?
+  

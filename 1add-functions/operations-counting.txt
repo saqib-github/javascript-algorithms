@@ -1,0 +1,26 @@
+Notes:////////////
+1. function addUpTo(n){
+    return n* ( n+1 ) / 2;
+}
+there are three operations (1. multiplication, 2. addition, 3. division);
+simple operations, regardless of the size of n;
+________________________________________________________________________________________________________________________________
+function addUpTo(n) {
+  let total = 0;
+  for (let i = 1; i <= n; i++) {
+    total += i;
+  }
+  return total;
+}
+n additions, n assignments, n comparisons, 1 assignment, n comparisons,
+counting is hard
+________________________________________________________________________________________________________________________________
+
+Big O Notation: big o notation is a way to formalize fuzzy counting.
+It allows us to talk formally about how the runtime of an algorihthm grows as the input grow.
+Definition: we say that an algorihthm is O(f(n)) if the number of simple operations the computer
+has to do is eventully less than a constant times f(n), as n increases.
+* f(n) could be linear (f(n) = n)
+* f(n) could be quadratic (f(n) = n^2)
+* f(n) could be constant (f(n) = 1)
+* f(n) could be something entirely different.
