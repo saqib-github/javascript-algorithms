@@ -36,3 +36,4 @@ const equ = (arr1, the, d) => {
 };
 
 console.log(equ([64, 30, 25, 33], 2, 2));
+// kshncvid
